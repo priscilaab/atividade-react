@@ -22,7 +22,7 @@ code {
 }
 
 h1 {
-  display: block;
+  display: flex;
   justify-content: center;
   margin: 50px;
 }
@@ -71,14 +71,18 @@ p {
 }
 
 .menu a:hover {
-  color: #78a84a;
+  color: #88eb2c;
 }
 
 .rodape{
-  display: block;
+  display: flex;
   margin: auto;
   padding: 20px;
   margin-bottom: 20px;
   background-color: #000000;
   color: #a1b67f;
+  
+}
+.rodape a {
+  justify-self: center;
 }
